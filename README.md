@@ -13,3 +13,9 @@ Then to run the image:
 docker run -d <name>
 ```
 
+To run `bash` in a running container:
+
+```
+docker exec -it /bin/bash
+```
+
