@@ -10,12 +10,12 @@ docker build -t <name> .
 Then to run the image:
 
 ```sh
-docker run -t -d <name> -v <local/path/to/mount:container/path>
+docker run -t -d  -v <local/path/to/mount:container/path> <image name>
 ```
 
 To run `bash` in a running container:
 
 ```
-docker exec -it /bin/bash
+docker exec -it <container id> /bin/bash
 ```
 
